@@ -14,9 +14,7 @@ public class CountElements {
 
             if (countMap.containsKey(num)) {
                 countMap.put(num, countMap.get(num) + 1);
-            }
-
-            else {
+            } else {
                 countMap.put(num, 1);
             }
         }
